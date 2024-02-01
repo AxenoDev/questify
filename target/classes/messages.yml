@@ -1,0 +1,29 @@
+###################################
+#                                 #
+#           Prison Craft          #
+#          Par Axeno_Off          #
+#                                 #
+#   Configuration des messages    #
+#                                 #
+###################################
+
+# Pour mettre de la couleur dans les messages utiliser "&":
+# Liste des couleurs:
+# &0 : Noir
+# &1 : Bleu foncé
+# &2 : Vert foncé
+# &3 : Aqua foncé
+# &4 : Rouge foncé
+# &5 : Violet foncé
+# &6 : Orange
+# &7 : Gris
+# &8 : Gris foncé
+# &9 : Bleu
+# &a : Vert
+# &b : Aqua
+# &c : Rouge
+# &d : Rose clair
+# &e : Jaune
+# &f : Blanc
+
+nopermission: "&cVous n'avez pas la permission d'éxécuter cette commande."
