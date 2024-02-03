@@ -26,4 +26,9 @@
 # &e : Jaune
 # &f : Blanc
 
-nopermission: "&cVous n'avez pas la permission d'éxécuter cette commande."
+# Message lors du changement d'activité
+# Pour récupérer le nom de l'activité: {activity}
+newactivity: "Une nouvelle activité est disponible: {activity}"
+# Nom de la bossbar des activité
+# Pour récupérer le nom de l'activité: {activity}
+bossbarname: "Activité: {activity}"

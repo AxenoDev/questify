@@ -7,9 +7,35 @@
 #                             #
 ###############################
 
+# WARNING: CE PLUGIN NE DOIT ETRE EN AUCUN CAS PARTAGER.
+# CE PLUGIN EST FAIT PAR AXENO_OFF POUR PRISON CRAFT RP.
 
+# Configuration concernant la région
+regions:
+  # Plugin disponible: WorldGuard
+  plugin: WorldGuard
+  # Nom de la régions.
+  name: "example"
+
+
+# Configuration concernant les activités
 activities:
+  # temps de l'activité
+  time: 5 # en minutes
+  # Liste des activités
   list:
-    - Activité 1
-    - Activité 2
-    - Activité 3
+    activite_1:
+      # nom de l'activité
+      name: "Activité 1"
+      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+      color: "BLUE"
+    activite_2:
+      # nom de l'activité
+      name: "Activité 2"
+      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+      color: "RED"
+    activite_3:
+      # nom de l'activité
+      name: "Activité 3"
+      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+      color: "WHITE"

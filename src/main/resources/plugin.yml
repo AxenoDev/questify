@@ -2,6 +2,7 @@ name: prisoncraft
 main: fr.axeno.prisoncraft.Main
 version: 1.0.0
 api-version: 1.12
+depend: [WorldGuard, WorldEdit]
 commands:
   regions:
     description: Aucune description disponible.
