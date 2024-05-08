@@ -1,25 +1,19 @@
-package fr.axeno.prisoncraft.events;
+package fr.axeno.questify.events;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import fr.axeno.prisoncraft.Main;
+import fr.axeno.questify.Main;
 
 public class PlayerQuit implements Listener {
-
-    private Main main;
-    public PlayerQuit(Main main) {
-        this.main = main;
-    }
-
     @EventHandler
-    public void onPlayerJoin(PlayerQuitEvent event) {
+    public void onPlayerQuit(PlayerQuitEvent event) {
 
         Player player = event.getPlayer();
 
-        main.bossBar.removePlayer(player);
+        Main.bossBar.removePlayer(player);
     }
     
 }

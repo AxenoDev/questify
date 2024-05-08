@@ -1,8 +1,6 @@
-name: prisoncraft
-main: fr.axeno.prisoncraft.Main
+name: Questify
+main: fr.axeno.questify.Main
 version: 1.0.0
-api-version: 1.12
+api-version: 1.16
+author: axenq
 depend: [WorldGuard, WorldEdit]
-commands:
-  regions:
-    description: Aucune description disponible.

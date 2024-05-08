@@ -1,34 +1,35 @@
-###################################
-#                                 #
-#           Prison Craft          #
-#          Par Axeno_Off          #
-#                                 #
-#   Configuration des messages    #
-#                                 #
-###################################
+################################
+#                              #
+#           Questify           #
+#           By axenq           #
+#                              #
+#     Configuring Messages     #
+#                              #
+################################
 
-# Pour mettre de la couleur dans les messages utiliser "&":
-# Liste des couleurs:
-# &0 : Noir
-# &1 : Bleu foncé
-# &2 : Vert foncé
-# &3 : Aqua foncé
-# &4 : Rouge foncé
-# &5 : Violet foncé
+
+# To add color to messages use "&":
+# Color list:
+# &0 : Black
+# &1 : Dark blue
+# &2 : Dark green
+# &3 : Dark aqua
+# &4 : Dark red
+# &5 : Dark purple
 # &6 : Orange
-# &7 : Gris
-# &8 : Gris foncé
-# &9 : Bleu
-# &a : Vert
+# &7 : Gray
+# &8 : Dark gray
+# &9 : Blue
+# &a : Green
 # &b : Aqua
-# &c : Rouge
-# &d : Rose clair
-# &e : Jaune
-# &f : Blanc
+# &c : Red
+# &d : Light purple
+# &e : Yellow
+# &f : White
 
-# Message lors du changement d'activité
-# Pour récupérer le nom de l'activité: {activity}
-newactivity: "Une nouvelle activité est disponible: {activity}"
-# Nom de la bossbar des activité
-# Pour récupérer le nom de l'activité: {activity}
-bossbarname: "Activité: {activity}"
+# Message when changing activity
+# To retrieve the activity name: {activity}
+newactivity: "&7[&a&lQuestify&7] &8» &7A new activity is available: &b{activity}"
+# Name of the activity boss bar
+# To retrieve the activity name: {activity}
+bossbarname: "&bCurrent activity &8» &l{activity}"

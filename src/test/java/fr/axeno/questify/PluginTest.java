@@ -1,4 +1,4 @@
-package fr.axeno.prisoncraft;
+package fr.axeno.questify;
 
 import static org.junit.Assert.assertTrue;
 

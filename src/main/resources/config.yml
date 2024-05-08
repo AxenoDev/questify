@@ -1,41 +1,39 @@
-###############################
-#                             #
-#        Prison Craft         #
-#        Par Axeno_Off        #
-#                             #
-#   Configuration du plugin   #
-#                             #
-###############################
+################################
+#                              #
+#           Questify           #
+#           By axenq           #
+#                              #
+#         Plugin Setup         #
+#                              #
+################################
 
-# WARNING: CE PLUGIN NE DOIT ETRE EN AUCUN CAS PARTAGER.
-# CE PLUGIN EST FAIT PAR AXENO_OFF POUR PRISON CRAFT RP.
 
-# Configuration concernant la région
+# Region configuration
 regions:
-  # Plugin disponible: WorldGuard
-  plugin: WorldGuard
-  # Nom de la régions.
+  # Enable or disable zone activity. (Enabled = true, Disabled = false)
+  enable: true
+  # Name of the region.
   name: "example"
 
 
-# Configuration concernant les activités
+# Activity configuration
 activities:
-  # temps de l'activité
-  time: 5 # en minutes
-  # Liste des activités
+  # Time of activities
+  time: 5 # in minutes
+  # List of activities
   list:
-    activite_1:
-      # nom de l'activité
-      name: "Activité 1"
-      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+    activity_1:
+      # name of activity
+      name: "Activity 1"
+      # Color available: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
       color: "BLUE"
-    activite_2:
-      # nom de l'activité
-      name: "Activité 2"
-      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+    activity_2:
+      # name of activity
+      name: "Activity 2"
+      # Color available: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
       color: "RED"
-    activite_3:
-      # nom de l'activité
-      name: "Activité 3"
-      # Couleur disponible: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
+    activity_3:
+      # name of activity
+      name: "Activity 3"
+      # Color available: BLUE, RED, WHITE, PURPLE, PINK, GREEN, YELLOW
       color: "WHITE"
