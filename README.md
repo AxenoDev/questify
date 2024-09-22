@@ -85,3 +85,4 @@ Voici ce qu'on peut faire avec le plugin Questify:
 * [ ] Choisir le system de timer en action bar
 * [ ] Faire une API pour les devs
 * [ ] Faire un addon pour skript
+* [ ] Un mod minecraft pour remplacer la bossbar avec un UI
